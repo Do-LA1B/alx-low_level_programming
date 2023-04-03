@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *i puts2 - function that prints every other character
- * @str: function parameter
+ * puts2 - prints one character out of two
+ * starting with the first one
+ * @str: input
  * Return: always 0
  */
 
