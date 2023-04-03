@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * puts2 - function that prints every other character
+ *i puts2 - function that prints every other character
  * @str: function parameter
  * Return: always 0
  */
 
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
-		i++;
+		if ((i % 2) == 0)
+			_putchar(str[i]);
+		else
+			continue;
 	}
 	_putchar('\n');
 }
