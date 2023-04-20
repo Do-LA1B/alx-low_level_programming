@@ -1,4 +1,7 @@
 #include "3-calc.h"
+#include "function_pointers.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - check the code for The School students
@@ -7,7 +10,7 @@
  * Return: always O
  */
 
-int main(int argc, int **argv)
+int main(int argc, char **argv)
 {
 	int (*op_func)(int, int), a, b;
 
